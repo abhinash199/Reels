@@ -1,0 +1,14 @@
+import React from "react";
+import { MainLayout} from "@/components/organisms/Layouts";
+import {CommentPage} from '@/components/organisms/Comment/CommentPage'
+
+const Comment = () => {
+
+    return (
+        <MainLayout title={'comments'}>
+            <CommentPage reply={false}/>
+        </MainLayout>
+    );
+}
+
+export default Comment;

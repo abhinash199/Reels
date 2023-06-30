@@ -1,0 +1,1 @@
+export {PaidContentModal} from './PaidContentModal';

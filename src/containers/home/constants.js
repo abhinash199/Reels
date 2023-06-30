@@ -1,0 +1,7 @@
+export const homeConstants = {
+
+    REQUEST_HOME_PAGE: 'REQUEST_HOME_PAGE',
+    RECEIVE_HOME_PAGE: 'RECEIVE_HOME_PAGE',
+    ERROR_HOME_PAGE: 'ERROR_HOME_PAGE',
+
+};

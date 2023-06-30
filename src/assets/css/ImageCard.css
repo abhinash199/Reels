@@ -1,0 +1,160 @@
+
+.app__videos{
+    position: relative;
+    height: 100vh;
+    background-color: #000;
+    width: 100%;
+    /* border-radius: 20px; */
+    /* max-width: 450px;
+    max-height: 1200px; */
+    overflow:scroll;
+    scroll-snap-type: y mandatory;
+  }
+  
+  .app__videos::-webkit-scrollbar{
+    display: none;
+  }
+  
+  .app__videos{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .videoCard{
+    position: relative;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align:start;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .videoCard__player{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+  } 
+  
+  
+  .my-icon{
+  
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    z-index: 2;
+  }
+  
+  .views-count{
+    margin: 0px;
+    color: #fff;
+  }
+  .profile-section{
+    bottom: 20px;
+    left: 10px;
+    position: absolute;
+    z-index: 2;
+  
+  }
+  .profile-main{
+    display: flex;
+      justify-content: flex-start;
+      align-items: center;
+  
+  }
+  
+  .visit-btn{
+    padding: 8px;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-size: 10px;
+    width: 70px;
+    font-weight: 400;
+    font-family: "Inter";
+    text-align: center;
+  }
+  .creator-name{
+    margin: 0px;
+    font-family:"Inter";
+    font-size: 14px;
+    color: #fff;
+    margin: 0 9px;
+  }
+  
+  .profile-desc-new p{
+    color: #fff;
+    font-weight: 600;
+    font-family: "Inter";
+    font-size: 10px;
+    width: 300px;
+    line-height: 12.1px;
+  }
+  
+  .profile-img-footer{
+    width: 30px;
+    height: 30px;
+  }
+  .profile-img-footer img{
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+  }
+  .profile-desc-new span{
+    color: #fff;
+    opacity: 0.5;
+    font-weight: 400;
+    font-family: "Inter";
+    font-size: 10px;
+  }
+  
+  .bottom-action{
+    position: absolute;
+    bottom: 0;
+    background: #ffffff;
+    height: 246px;
+    left: 0;
+    right: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    z-index: 4;
+  }
+  .creator-connect{
+    font-size: 18px;
+    font-family: "Inter";
+    font-weight: 600;
+    color: #1E1C21;
+    display: flex;
+    height: 72px;
+    border-bottom: 1px solid #E5E5EE;
+    justify-content: center;
+    align-items: center;
+  }
+  .creator-chat,.book-vc{
+    height: 82px;
+    display: flex;
+    align-items: center;
+    margin: 0 24px;
+    justify-content: space-between;
+  }
+  .creator-chat >div>span{
+    margin-left: 12px;
+  }
+  .bottom-separator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bottom-action-open::before {
+    content: '';
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 15;
+    background: rgba(0, 0, 0, 0.8);
+  }
